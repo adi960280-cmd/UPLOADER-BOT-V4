@@ -13,9 +13,9 @@ if __name__ == "__main__" :
         os.makedirs(Config.DOWNLOAD_LOCATION)
     plugins = dict(root="plugins")
     Client = Client("@UploaderXNTBot",
-    bot_token=Config.BOT_TOKEN,
-    api_id=Config.API_ID,
-    api_hash=Config.API_HASH,
+    bot_token="8453295432:AAEgLjaT7jfNO4cl6TpW7pV-tjNIrQf2gj0",
+    api_id=29115102,
+    api_hash="1a331db2b00e9d2decaa9c7276449eb6",
     upload_boost=True,
     sleep_threshold=300,
     plugins=plugins)
